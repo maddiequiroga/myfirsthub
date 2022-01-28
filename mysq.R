@@ -1,4 +1,5 @@
 mysq <- function(x) {
   y <- x^2
-  lisy(x = x, y = y)
+  plot(y~x)
+  lisy(x = x, y = y, ysum = summary(y))
 }
